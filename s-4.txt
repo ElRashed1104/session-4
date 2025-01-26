@@ -1,0 +1,29 @@
+# task 2
+# calculator 
+n1 = input("inter num 1 ")
+n2 = input("inter num 2 ")
+op = input ("inter opertion ( - , + , * , / )")
+
+nnn1 =float(n1) 
+nnn2 =float(n2) 
+
+def summ (x ,y ) :
+    res1 =(x + y) 
+    return res1  
+def subb (nn1 , nn2 ) :
+    res2 = nn1-nn2 
+    return res2 
+def div (nn1 , nn2 ) :
+    res3 = nn1/nn2
+    return res3
+def mul (nn1 , nn2 ) :
+    res4 = nn1*nn2 
+    return res4 
+if op =="+" :
+    print(summ(nnn1 , nnn2))
+elif op =="-" :
+    print(subb(nnn1 , nnn2))
+elif op =="/" :
+    print(div(nnn1 , nnn2))
+elif op =="*" :
+    print(mul(nnn1 , nnn2))
